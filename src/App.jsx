@@ -1,10 +1,19 @@
 import React from 'react'
+import Navbar from './Components/Navbar'
+import Grid from './Components/Grid'
 
 function App() {
   return (
-    <>
-      <h1>React Tailwind Template :) </h1>
-    </>
+    <div
+      className=' flex  flex-col
+        h-screen
+      '
+    >
+      <Navbar />
+      <div className='flex-grow'>
+        <Grid />
+      </div>
+    </div>
   )
 }
 

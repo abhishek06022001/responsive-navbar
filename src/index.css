@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.rounded-top {
+  border-top-left-radius: 0.5rem; /* Adjust the value as needed */
+  border-top-right-radius: 0.5rem; /* Adjust the value as needed */
+}
